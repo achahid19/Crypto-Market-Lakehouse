@@ -32,7 +32,7 @@ The goal is to demonstrate a production-grade data engineering workflow that dec
 * **Tech Stack:** Python, Pandas, PySpark.
 * **Goal:** Land raw data as quickly as possible without modification.
 * **Implementation:**
-    * Fetches 365 days of historical OHLC prices.
+    * Fetches 365 days of historical prices.
     * Converts nested JSON responses into a Spark DataFrame.
     * **Load Strategy:** Appends raw data to the Delta Lake table `bronze_crypto_prices`.
 

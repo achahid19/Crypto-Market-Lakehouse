@@ -70,9 +70,9 @@ The goal is to demonstrate a production-grade data engineering workflow that dec
 
 2.  **Deployment:**
     * Import the notebooks from the `/src` folder into your workspace.
-    * **Notebook 1:** `01_ingest_bronze` (Python)
-    * **Notebook 2:** `02_clean_silver` (SQL)
-    * **Notebook 3:** `03_analytics_gold` (SQL)
+    * **Notebook 1:** `01_Crypto_Bronze_Layer` (Python)
+    * **Notebook 2:** `02_Crypto_Silver_Layer` (SQL)
+    * **Notebook 3:** `03_Crypto_Gold_Layer` (SQL)
 
 3.  **Orchestration:**
     * Create a **Databricks Job**.

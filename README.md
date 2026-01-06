@@ -21,7 +21,7 @@ The goal is to demonstrate a production-grade data engineering workflow that dec
 **Data Flow:**
 `API Source` → `Bronze (Raw Ingestion)` → `Silver (Clean & Upsert)` → `Gold (Aggregated Metrics)` → `Dashboard`
 
-![Architecture Diagram](./assets/crypto_lakehouse.jpg)
+![Architecture Diagram](./src/assets/crypto_lakehouse.jpg)
 
 ---
 
@@ -78,7 +78,8 @@ The goal is to demonstrate a production-grade data engineering workflow that dec
     * Create a **Databricks Job**.
     * Link the three notebooks as sequential tasks (Task 1 → Task 2 → Task 3).
     * Run the job manually or set a cron schedule.
-    ![Orchestration](./assets/ELT_pipeline.jpg)
+    
+    ![Orchestration](./src/assets/ELT_pipeline.jpg)
 
 4.  **Visualization:**
     * Go to **Basic_Crypto_Analytics**.

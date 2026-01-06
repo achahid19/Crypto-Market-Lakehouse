@@ -78,6 +78,7 @@ The goal is to demonstrate a production-grade data engineering workflow that dec
     * Create a **Databricks Job**.
     * Link the three notebooks as sequential tasks (Task 1 → Task 2 → Task 3).
     * Run the job manually or set a cron schedule.
+    ![Orchestration](./assets/ELT_pipeline.jpg)
 
 4.  **Visualization:**
     * Go to **Basic_Crypto_Analytics**.
